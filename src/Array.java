@@ -9,13 +9,14 @@ public class Array {
 
     public static int arrayResult(int[] array, int number) {
 
-         for (int i = 0; i < array.length; i++)
-             if (array[i] == number) {
-                 return i;
-             }
-         }
-         return -1;
-        
+        // for (int i = 0; i < array.length; i++) {
+
+        //     if (array[i] == number) {
+        //         return i;
+        //     }
+        // }
+        // return -1;
+        //
 
         //Level 2
 //Реализовать алгоритм, который будет находить сумму квадратов всех элементов массива!
