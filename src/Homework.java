@@ -72,6 +72,6 @@ public class Homework {
         a.number(29);
         a.counter(123);
         a.fibonacci(13);
-        a.isPolindrom("abcddcba");
+        a.isPolindrom("bcddcba");
     }
 }
