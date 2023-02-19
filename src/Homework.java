@@ -57,9 +57,9 @@ public class Homework {
     //Напишите рекурсивный метод, который проверяет, является ли строка палиндромом.
 
     public boolean isPolindrom(String text) {
-        int middle = text.length();
-        for (int i = 0; i < (n / 2); i++) {
-            if (text.charAt(i) == text.charAt(n - i - 1)) {
+        int length = text.length();
+        for (int i = 0; i < (length / 2); i++) {
+            if (text.charAt(i) == text.charAt(length - i - 1)) {
                 return true;
             }
         }
